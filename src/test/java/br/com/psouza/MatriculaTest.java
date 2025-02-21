@@ -1,12 +1,10 @@
 package test.java.br.com.psouza;
 
+import org.junit.Test;
+import org.junit.Assert;
 import main.java.br.com.psouza.domain.Matricula;
 import main.java.br.com.psouza.domain.dao.GenericDAO;
 import main.java.br.com.psouza.domain.dao.MatriculaDAO;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 
 import java.time.Instant;
 import java.util.List;

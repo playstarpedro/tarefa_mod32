@@ -1,13 +1,11 @@
 package test.java.br.com.psouza;
 
+import org.junit.Test;
+import org.junit.Assert;
 import main.java.br.com.psouza.domain.Curso;
 import main.java.br.com.psouza.domain.dao.CursoDAO;
 import main.java.br.com.psouza.domain.dao.GenericDAO;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Test;
 
-import java.time.Instant;
 import java.util.List;
 
 public class CursoTest {
